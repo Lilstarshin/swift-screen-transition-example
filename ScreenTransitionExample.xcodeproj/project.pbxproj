@@ -13,6 +13,10 @@
 		59D0AC2827C86F58009EFA55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59D0AC2627C86F58009EFA55 /* Main.storyboard */; };
 		59D0AC2A27C86F5A009EFA55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D0AC2927C86F5A009EFA55 /* Assets.xcassets */; };
 		59D0AC2D27C86F5A009EFA55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59D0AC2B27C86F5A009EFA55 /* LaunchScreen.storyboard */; };
+		59D0AC3727C872BF009EFA55 /* SuguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D0AC3627C872BF009EFA55 /* SuguePushViewController.swift */; };
+		59D0AC3927C876F6009EFA55 /* SuguePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D0AC3827C876F6009EFA55 /* SuguePresentViewController.swift */; };
+		59EC807F27C895D100834C94 /* CodePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EC807E27C895D100834C94 /* CodePushViewController.swift */; };
+		59EC808127C8991B00834C94 /* CodePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EC808027C8991B00834C94 /* CodePresentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		59D0AC2927C86F5A009EFA55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59D0AC2C27C86F5A009EFA55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59D0AC2E27C86F5A009EFA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59D0AC3627C872BF009EFA55 /* SuguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SuguePushViewController.swift; path = ../SuguePushViewController.swift; sourceTree = "<group>"; };
+		59D0AC3827C876F6009EFA55 /* SuguePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuguePresentViewController.swift; sourceTree = "<group>"; };
+		59EC807E27C895D100834C94 /* CodePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePushViewController.swift; sourceTree = "<group>"; };
+		59EC808027C8991B00834C94 /* CodePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePresentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		59D0AC1F27C86F58009EFA55 /* ScreenTransitionExample */ = {
 			isa = PBXGroup;
 			children = (
+				59D0AC3627C872BF009EFA55 /* SuguePushViewController.swift */,
+				59D0AC3827C876F6009EFA55 /* SuguePresentViewController.swift */,
 				59D0AC2027C86F58009EFA55 /* AppDelegate.swift */,
 				59D0AC2227C86F58009EFA55 /* SceneDelegate.swift */,
 				59D0AC2427C86F58009EFA55 /* ViewController.swift */,
@@ -63,6 +73,8 @@
 				59D0AC2927C86F5A009EFA55 /* Assets.xcassets */,
 				59D0AC2B27C86F5A009EFA55 /* LaunchScreen.storyboard */,
 				59D0AC2E27C86F5A009EFA55 /* Info.plist */,
+				59EC807E27C895D100834C94 /* CodePushViewController.swift */,
+				59EC808027C8991B00834C94 /* CodePresentViewController.swift */,
 			);
 			path = ScreenTransitionExample;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59D0AC3927C876F6009EFA55 /* SuguePresentViewController.swift in Sources */,
+				59EC807F27C895D100834C94 /* CodePushViewController.swift in Sources */,
+				59D0AC3727C872BF009EFA55 /* SuguePushViewController.swift in Sources */,
 				59D0AC2527C86F58009EFA55 /* ViewController.swift in Sources */,
+				59EC808127C8991B00834C94 /* CodePresentViewController.swift in Sources */,
 				59D0AC2127C86F58009EFA55 /* AppDelegate.swift in Sources */,
 				59D0AC2327C86F58009EFA55 /* SceneDelegate.swift in Sources */,
 			);
